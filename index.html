@@ -1,23 +1,73 @@
----
-layout: default
----
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Anna Domańska-Grzyb | Front-End developer</title>
+      <meta name="description" content="Anna Domańska-Grzyb. Polish Front-End developer based in Warsaw.">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="theme-color" content="#000">
+      <meta name="robots" content="index,follow">
+      <meta name="googlebot" content="index,follow">
+      <link rel="icon shortcut" href="assets/img/favicon-16.png" sizes="16x16" type="image/png">
+      <!--<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="assets/img/favicon-48.png" sizes="48x48" type="image/png">
+      <link rel="icon" href="assets/img/favicon-62.png" sizes="62x62" type="image/png">
+      <link rel="icon" href="assets/img/favicon-192.png" sizes="192x192" type="image/png">-->
+      <link rel="canonical" href="http://domanskagrzyb.com">
 
-<div class="home">
+      <!-- Facebook -->
+      <meta property="og:locale" content="pl_PL">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Anna Domańska-Grzyb - Front-End developer">
+      <meta property="og:description" content="Anna Domańska-Grzyb. Polish Front-End developer based in Warsaw.">
+      <meta property="og:url" content="http://domanskagrzyb.com">
+      <meta property="og:site_name" content="Anna Domańska-Grzyb">
+      <!--<meta property="og:image" content="">-->
 
-  <h1 class="page-heading">Posts</h1>
+      <!-- Twitter -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="Anna Domańska-Grzyb - Front-End developer">
+      <meta name="twitter:description" content="Anna Domańska-Grzyb. Polish Front-End developer based in Warsaw.">
+      <meta name="twitter:site" content="@AnDomanskaGrzyb">
+      <meta name="twitter:creator" content="@AnDomanskaGrzyb">
+      <!--<meta name="twitter:image" content="">-->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <meta itemprop="name" content="Anna Domańska-Grzyb">
+      <meta itemprop="description" content="Anna Domańska-Grzyb. Polish Front-End developer based in Warsaw.">
+      <!--<meta itemprop="image" content="">-->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <link rel="stylesheet" href="css/normalize.css">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <!--<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/ionicons.min.css">-->
 
-</div>
+      <link rel="stylesheet" href="css/main.css">
+
+      <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+      <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "name" : "Anna Domańska-Grzyb",
+          "url" : "http://domanskagrzyb.com"
+        }
+        </script> 
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Anna Domańska-Grzyb</h1>
+        <div class="links">
+          <a href="https://twitter.com/AnDomanskaGrzyb" class="icon-twitter"></a>
+          <a href="https://github.com/DomanskaGrzyb" class="icon-github-circled"></a>
+          <a href="https://www.linkedin.com/in/annadomanskagrzyb/" class="icon-linkedin"></a>
+          <a href="http://codepen.io/DomanskaGrzyb/" class="icon-codepen"></a>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
